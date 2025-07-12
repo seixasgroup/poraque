@@ -4,14 +4,14 @@ build-backend = "hatchling.build"
 
 [project]
 name = "poraque"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Leandro Seixas", email="leandro.fisica@gmail.com" },
 ]
 description = "Electronic structure with graph neural networks"
 readme = "README.md"
 license = {file = "LICENSE"} 
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     'numpy',
     'pandas',
@@ -30,4 +30,4 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/leseixas/poraque"
+"Homepage" = "https://github.com/seixasgroup/poraque"
